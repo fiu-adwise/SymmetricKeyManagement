@@ -12,4 +12,5 @@ Following are the steps for integration.
 5) Export the library path with command export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${WOLF_INSTALL_DIR}/lib" so the app can find the library at run time
 6) run the server.c and connect to it with the client.c which are compiled with -fpie -rdynamic
 
-# Second Step is to create a virtual network on ns-3 which represents LoraWan characterstics 
+# Second Step is to create a virtual network on ns-3 which represents LoraWan characterstics:
+![loraWan Virtual Network](https://github.com/fiu-awl/SymmetricKeyManagement/blob/master/loraNetwork.png)
