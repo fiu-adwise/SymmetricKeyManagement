@@ -13,4 +13,5 @@ Following are the steps for integration.
 6) run the server.c and connect to it with the client.c which are compiled with -fpie -rdynamic
 
 # Second Step is to create a virtual network on ns-3 which represents LoraWan characterstics:
+The scripts for creating the following ns-3 network located in LoraWanNs3 folder
 ![loraWan Virtual Network](https://github.com/fiu-awl/SymmetricKeyManagement/blob/master/loraNetwork.png)
