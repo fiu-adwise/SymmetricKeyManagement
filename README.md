@@ -15,3 +15,8 @@ Following are the steps for integration.
 # Second Step is to create a virtual network on ns-3 which represents LoraWan characterstics:
 The scripts for creating the following ns-3 network located in LoraWanNs3 folder
 ![loraWan Virtual Network](https://github.com/fiu-awl/SymmetricKeyManagement/blob/master/loraNetwork.png)
+
+# To reflect Lora charectestics in terms of latency and bandwith as parameters. Please refer the following work,
+We have used spreading factor 7 for urban and spreading factor 9 for rural settings.
+
+Adelantado, Ferran, et al. "Understanding the limits of LoRaWAN." IEEE Communications magazine 55.9 (2017): 34-40.
