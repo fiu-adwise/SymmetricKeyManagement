@@ -12,3 +12,5 @@ ifconfig br-right up
 pushd /proc/sys/net/bridge
 for f in bridge-nf-*; do echo 0 > $f; done
 popd
+lxc-create -n left -f clientContainer.conf
+lxc-create -n right -f serverContainer.conf
