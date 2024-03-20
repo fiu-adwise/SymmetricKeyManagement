@@ -1,6 +1,6 @@
 # SymmetricKeyManagement
 # First Step  integrates wolfssl and the project to accomplish crypto operation
-In this prohject we have used wolfssl for crypto operations such as encryption and key generation. 
+In this project we have used wolfssl for crypto operations such as encryption and key generation. 
 To integrate wolfssl to the project, it is necessary to compile and integrate it properly.
 Following are the steps for integration.
 
